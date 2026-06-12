@@ -1,22 +1,30 @@
 # Alvin Wilsen Chan Chua
 
-Private engineering portfolio for enterprise platforms, reusable libraries, architecture standards, and automation systems.
+Software engineer focused on enterprise application platforms, reusable backend libraries, architecture standards, and automation systems.
 
-Most of the work represented here lives in private repositories. This profile repository is a public map of what I have been building: the platform families, technical domains, architecture patterns, and reusable engineering assets behind my private GitHub workspace.
+I build private platform work across .NET, Java, Go, Angular, SQL Server, Auth0, observability, CI/CD, and delivery governance. My current direction is toward platform engineering and solution architecture: systems that are structured, testable, secure, documented, and built so future teams can understand and extend them.
+
+Most of the work represented here lives in private repositories. This profile is a public map of what I have been building, how I approach engineering, and how to request access to selected private projects.
 
 **Request access to selected private projects:** [Google Form link placeholder](https://forms.gle/REPLACE_WITH_GOOGLE_FORM_LINK)
 
-## What This Repository Represents
+## About Me
 
-This repository is the public entry point for my private project portfolio. It summarizes selected work across enterprise application platforms, .NET libraries, Java and Go platform libraries, Angular applications, governance systems, Auth0/RBAC automation, and architecture knowledge bases.
+I enjoy building the parts of software that make large applications easier to grow: clean project structure, reusable platform libraries, authentication and authorization foundations, database boundaries, logging and observability, validation, testing, documentation, and automation.
 
-The goal is to give recruiters, collaborators, reviewers, and technical stakeholders enough context to understand the scope and quality of the work without exposing proprietary code, implementation details, credentials, private architecture, or internal platform materials.
+The projects behind this profile are intentionally practical. They focus on enterprise-style problems: modular platforms, governed delivery, secure access control, traceability, CI/CD, architecture standards, and repeatable ways to start new systems.
 
-## Why Most Projects Are Private
+I am especially interested in the intersection of code quality and delivery quality. Good architecture should show up in the repository layout, the tests, the documentation, the build pipeline, and the way a new developer understands the system.
 
-The repositories described here contain proprietary architecture, implementation details, platform governance materials, security patterns, domain models, and automation workflows. Source access is reviewed case by case.
+## How I Work
 
-Private access may be granted for selected projects when there is a clear review purpose, such as technical evaluation, collaboration, portfolio review, or internal assessment.
+- I favor Clean Architecture, modular monoliths, bounded contexts, and clear layer boundaries.
+- I build reusable platform libraries for cross-cutting concerns instead of repeating boilerplate in every application.
+- I treat security as a foundation: authentication, authorization, RBAC, tenant-aware access, field masking, auditing, and safe defaults.
+- I care about observability: structured logging, correlation, health checks, error handling, audit trails, and operational evidence.
+- I use tests and architecture checks to protect important design decisions.
+- I document systems as they are built, including standards, ADRs, knowledge bases, traceability, and implementation notes.
+- I use automation, Codex workflows, scripts, and generation tools to make engineering work more repeatable.
 
 ## Featured Project Families
 
@@ -34,6 +42,29 @@ Private access may be granted for selected projects when there is a clear review
 | ChuA Go Enterprise Libraries | Reusable Go platform libraries | Active | Go | Authentication, authorization, validation, database access, logging, observability, caching, messaging, middleware, shared kernel patterns, and API foundations | Private, access by request |
 | ChuA Java Enterprise Libraries | Reusable Java/Spring platform libraries | Active | Java 21, Spring Boot, Spring Security, JPA, Gradle | Java platform equivalents for authentication, authorization, validation, persistence, logging, observability, messaging, middleware, and shared kernel patterns | Private, access by request |
 | Auth0 / RBAC Utilities | Security automation tooling | Active | Python, Auth0 Management API, JavaScript actions | Bulk configuration of Auth0 API permissions, roles, role-permission assignments, tenant claims, seed users, and RBAC reporting | Private, selected review available |
+
+## Public Work Visitors Can Review
+
+Most production-scale work is private because it contains proprietary architecture, implementation details, security patterns, domain models, and governance materials. To make my engineering style easier to evaluate without a private access request, I am building public-safe reference repositories.
+
+These public repositories are intended to show how I organize code, structure applications, write documentation, create tests, wire CI/CD, and think about repeatable development workflows. They will be generic examples, not copies of private systems.
+
+| Planned repository | Purpose | What it will show |
+| --- | --- | --- |
+| `chu-a-enterprise-starter` | Public .NET starter template | Preferred backend structure, Clean Architecture or modular monolith layout, API endpoints, validation, logging, health checks, tests, CI/CD, README, and architecture notes |
+| `chu-a-platform-cli` | Project scaffolding CLI | Automated repository setup, solution structure, README, license, CI/CD files, test projects, basic API endpoints, and developer-experience conventions |
+| `chu-a-sample-api` | Small polished public API | Controllers or endpoints, DTOs, validation, services, persistence abstraction, tests, logging, documentation, and practical code organization |
+
+## Current Public Roadmap
+
+- Publish a public enterprise starter template.
+- Publish a public scaffolding CLI for my preferred project setup.
+- Publish a small public sample API.
+- Add more public-safe documentation examples that show architecture and delivery thinking.
+
+## Contribution Activity
+
+A significant portion of my development activity is in private repositories. I am gradually adding public-safe reference projects that demonstrate my engineering style without exposing proprietary systems.
 
 ## Representative Private Repositories
 
